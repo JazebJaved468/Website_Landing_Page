@@ -118,17 +118,36 @@ button:hover{
 
 }
 
+/* quote page starts */
 .quote{
     background-color: #e5e7eb;
-
+    justify-content: center;
+    align-items: center;
+}
+.quote-text{
+    /* border: 2px solid green; */
+    font-size: 36px;
+    font-weight: light;
+    width: 60%;
 }
 
+.quote-author {
+    /* border: 2px solid green; */
+    font-size: 24px;
+    font-weight: bolder;
+    width: 60%;
+    align-items:end;
+}
+/* quote page ends */
+
+/* signup page starts */
 .signup{
     width: 100%;
     height: 90vh;
 
     /* border: 2px solid green; */
 }
+/* signup page ends */
 
 /* Footer Starts */
 .footer{
