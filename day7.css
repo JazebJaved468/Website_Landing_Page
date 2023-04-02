@@ -12,6 +12,13 @@
     /* border: 2px solid green; */
 }
 
+.vh-10{
+    width: 100%;
+    height: 10vh;
+    background-color: #1f2937;
+    /* border: 2px solid green; */
+}
+
 .flex-row{
     display: flex;
     flex-direction: row;
@@ -21,7 +28,7 @@
     flex-direction: column;
 }
 
-/* header starts */
+/* header page starts */
 .header{
     background-color: #1f2937;
     padding: 0px 20px;
@@ -44,6 +51,7 @@
 }
 
 .anchor{
+    padding: 10px;
     color:#e5e7eb;
     text-decoration: none;
 }
@@ -80,6 +88,17 @@ button{
     border-radius: 7px;
     font-size: 15px;
     color: #e5e7eb;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #5490f1;
+    border: 0;
+    padding: 7px 25px;
+    border-radius: 7px;
+    font-size: 15px;
+    color: #e5e7eb;
+    cursor: pointer;
 }
 .header .head-img{
     padding: 30px 10px 30px 10px;
@@ -89,12 +108,12 @@ button{
 .head-img .sample-img{
     /* border: 2px solid green; */
     height: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.325);
     color: #e5e7eb;
     align-items: center;
     justify-content: center;
 }
-/* header ends */
+/* header page ends */
 .info{
 
 }
@@ -110,9 +129,15 @@ button{
 
     /* border: 2px solid green; */
 }
-.footer,.navbar{
-    width: 100%;
-    height: 10vh;
-    background-color: #1f2937;
-    /* border: 2px solid green; */
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: large;
+}
+
+#credit{
+    display: inline-block;
+    font-size: larger;
 }
