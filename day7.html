@@ -13,21 +13,21 @@
     <title>Project Landing Page</title>
 </head>
 <body>
-    <header class="header vh-100">
+    <header id="header" class="header vh-100">
         <nav class="navbar vh-10 flex-row">
             <div class="logo"> <a href="#" class="anchor">Header Logo</a></div>
             <ul class="links flex-row">
-                <a href="#" class="anchor"><li>header link 1</li></a>
-                <a href="#" class="anchor"><li>header link 2</li></a>
-                <a href="#" class="anchor"><li>header link 3</li></a>
-
+                <a href="#header" class="anchor"><li>header link 1</li></a>
+                <a href="#info" class="anchor"><li>header link 2</li></a>
+                <a href="#quote" class="anchor"><li>header link 3</li></a>
+                <a href="#signup" class="anchor"><li>header link 4</li></a>
             </ul>
         </nav>
         <div class="head-content flex-row">
             <div class="text">
                 <p class="main-text">This Website is <span>Awesome</span></p>
                 <p class="sub-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-                <div class="btn"><button>Sign up</button></div>
+                <div class="btn"><button class="header-btn">Sign up</button></div>
             </div>
             <div class="head-img">
                 <div class="sample-img flex-row">
@@ -36,15 +36,41 @@
             </div>
         </div>
     </header>
-    <section class="info vh-100"></section>
-    <section class="quote vh-100 flex-col">
+    <section id="info" class="info vh-100">
+       <h1>Some random information</h1>
+       <div class="container flex-row">
+        <div class="card flex-col">
+            <div class="card-img"></div>
+            <p style="text-align:left ;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, unde earum perspiciatis libero molestiae alias molestias eum sunt consequatur aspernatur, corrupti ipsum at quasi eligendi, cupiditate natus deserunt saepe eveniet?</p>
+        </div>
+        <div class="card flex-col">
+            <div class="card-img"></div>
+            <p style="text-align:left ;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, unde earum perspiciatis libero molestiae alias molestias eum sunt consequatur aspernatur, corrupti ipsum at quasi eligendi, cupiditate natus deserunt saepe eveniet?</p>
+        </div>
+        <div class="card flex-col">
+            <div class="card-img"></div>
+            <p style="text-align:left ;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, unde earum perspiciatis libero molestiae alias molestias eum sunt consequatur aspernatur, corrupti ipsum at quasi eligendi, cupiditate natus deserunt saepe eveniet?</p>
+        </div>
+        <div class="card flex-col">
+            <div class="card-img"></div>
+            <p style="text-align:left ;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, unde earum perspiciatis libero molestiae alias molestias eum sunt consequatur aspernatur, corrupti ipsum at quasi eligendi, cupiditate natus deserunt saepe eveniet?</p>
+        </div> 
+       </div>
+    </section>
+    <section id="quote" class="quote vh-100 flex-col">
         <div class="quote-text">
            <p> <em> This is an inspiring quote or a testimonial from a customer. May br it's just filling up space, or may be people will actually read it. Who knows? All I know is that it looks nice.</em></p> 
         </div>
         <div class="quote-author flex-col"><p>-Thor, God of Thunder</p></div>
     </section>
-    <section class="signup flex-row">
-        <div class="box"></div>
+    <section id="signup" class="signup flex-row">
+        <div class="signup-content flex-row">
+            <div class="signup-text">
+                <p class="call">Call to action! It's time!</p>
+                <p class="product">Sign up for our product by clicking that button right over there</p>
+            </div>
+            <div><button class="signup-btn">Sign up</button></div>
+        </div>
     </section>
     <footer class="footer vh-10 flex-row">
         <div> Copyright <span id="credit"> &copy </span> The Odin Project By Jazeb Javed 2023</div>
