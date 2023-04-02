@@ -152,6 +152,7 @@ span{
     width: 80%;
     height: 50%;
     margin-bottom: 2%;
+    background-image: linear-gradient(180deg, #1f2937, rgba(67, 65, 65, 0));
 }
 
 .card p{
@@ -222,7 +223,7 @@ span{
     font-weight: 500;
     color: #e5e7eb;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.8s;
 }
 
 .signup-btn:hover{
@@ -233,6 +234,7 @@ span{
     font-size: 18px;
     color: #e5e7eb;
     cursor: pointer;
+    background-image: linear-gradient(180deg, #1f2937, rgba(67, 65, 65, 0));
 }
 /* signup page ends */
 
