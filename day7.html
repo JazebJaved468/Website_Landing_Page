@@ -5,14 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="day7.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- Title -->
     <title>Project Landing Page</title>
 </head>
 <body>
     <header class="header vh-100">
-        <nav class="navbar">
+        <nav class="navbar flex-row">
+            <div class="logo"> <a href="#" class="anchor">Header Logo</a></div>
+            <ul class="links flex-row">
+                <a href="#" class="anchor"><li>header link 1</li></a>
+                <a href="#" class="anchor"><li>header link 2</li></a>
+                <a href="#" class="anchor"><li>header link 3</li></a>
 
+            </ul>
         </nav>
-        <div class="head-content"></div>
+        <div class="head-content flex-row">
+            <div class="text">
+                <p class="main-text">This Website is <span>Awesome</span></p>
+                <p class="sub-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                <div class="btn"><button>Sign up</button></div>
+            </div>
+            <div class="head-img">
+                <div class="sample-img flex-row">
+                    This is a placeholder for an image
+                </div>
+            </div>
+        </div>
     </header>
     <section class="info vh-100"></section>
     <section class="quote vh-100"></section>
