@@ -130,6 +130,7 @@ button:hover{
     /* border: 2px solid green; */
 }
 
+/* Footer Starts */
 .footer{
     justify-content: center;
     align-items: center;
@@ -141,3 +142,4 @@ button:hover{
     display: inline-block;
     font-size: larger;
 }
+/* Footer Ends */
